@@ -9,4 +9,5 @@
   + [Шаблоны классов, параметры шаблона не являющиеся типами, наследование от специализации шаблона](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/TemplateClass+Inheritance.cpp)
   + [Compile time mapping, реализация шаблонного оператора << с мапингом типов.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
   + [(Для любопытных) Variadic template function, if constexpr, sizeof...](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VariadicTemplateFunctionIfConstexpr.cpp)
-  + [Move semantics + 5 rule](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/MoveSemantics+5rule)
+  + [Move semantics + 5 rule.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/MoveSemantics+5rule)
+  + [Как создать исключения своего типа.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/OwnException.cpp)
