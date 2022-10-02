@@ -1,0 +1,5 @@
+* [Основы ООП](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/Heap/Heap.cpp)
+  + [Конструктор по умолчанию]()
+  + [Порядок вызова конструкторов и деструкторов при наследовании]()
+  + [Перегрузка операторов для потокового чтения а также как можно написать свой класс потокового чтения]()
+* [Слияние k отсортированных векторов за O(klogN)](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/Heap/mergeKVectors.cpp)
