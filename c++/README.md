@@ -5,3 +5,4 @@
   + [Правило трех.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/RuleOf3.cpp)
   + [Абстрактные классы и чисто виртуальные функции, virtual деструктор.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/Abstract.cpp)
   + [Проблема ромбовидного наследования, и ее решение через виртуальное наследование.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
+  + [Compile time mapping, реализация шаблонного оператора << с мапингом типов.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
