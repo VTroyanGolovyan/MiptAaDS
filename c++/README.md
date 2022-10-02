@@ -6,4 +6,5 @@
   + [Абстрактные классы и чисто виртуальные функции, virtual деструктор.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/Abstract.cpp)
   + [Проблема ромбовидного наследования, и ее решение через виртуальное наследование.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
   + [Шаблонные функции(пример что компилятор выбирает самый частный случай из всех допустимых).](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
+  + [Шаблоны классов, параметры шаблона не являющиеся типами, наследование от специализации шаблона](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/TemplateClass+Inheritance.cpp)
   + [Compile time mapping, реализация шаблонного оператора << с мапингом типов.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VirtualInheritance.cpp)
