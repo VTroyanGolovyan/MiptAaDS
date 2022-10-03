@@ -11,3 +11,4 @@
   + [(Для любопытных) Variadic template function, if constexpr, sizeof...](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VariadicTemplateFunctionIfConstexpr.cpp)
   + [Move semantics + 5 rule.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/MoveSemantics+5rule)
   + [Как создать исключения своего типа.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/OwnException.cpp)
+  + [Идея идиомы RAII.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/RAII_Idea.cpp)
