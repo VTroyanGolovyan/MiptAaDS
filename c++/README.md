@@ -13,3 +13,4 @@
   + [Как создать исключения своего типа.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/OwnException.cpp)
   + [Идея идиомы RAII.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/RAII_Idea.cpp)
   + [Почему исключения в деструкторах это злобное зло, и какую оценку вы получите если будете их кидать в деструкторах.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/ExceptionsInDestructorIsEvil.cpp)
+  + [Вектор и contiguos iterator.](https://github.com/VladislavHacker/Examples/blob/main/c%2B%2B/Classes/VectorAndContiguosIterator.cpp)
