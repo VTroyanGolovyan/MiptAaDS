@@ -22,7 +22,9 @@ public:
     }
 
     void Clear() {
-        Clear(root_);
+        if (root_ != nullptr){
+            Clear(root_);
+        }
         root_ = nullptr;
     }
 
