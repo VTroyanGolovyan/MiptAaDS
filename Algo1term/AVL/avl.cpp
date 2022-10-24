@@ -18,7 +18,8 @@ public:
     }
 
     ~AVLTree() {
-        Clear(root_);
+        Clear();
+        delete root_;
     }
 
     void Clear() {
