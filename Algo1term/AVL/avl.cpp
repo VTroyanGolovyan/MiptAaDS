@@ -166,7 +166,7 @@ private:
         return node;
     }
 
-    Node* root_;
+    Node* root_{nullptr};
 };
 
 
