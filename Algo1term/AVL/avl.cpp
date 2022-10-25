@@ -18,11 +18,14 @@ public:
     }
 
     ~AVLTree() {
-        Clear(root_);
+        Clear();
+        delete root_;
     }
 
     void Clear() {
-        Clear(root_);
+        if (root_ != nullptr){
+            Clear(root_);
+        }
         root_ = nullptr;
     }
 
@@ -163,7 +166,7 @@ private:
         return node;
     }
 
-    Node* root_;
+    Node* root_{nullptr};
 };
 
 
