@@ -1,3 +1,7 @@
 * [Реализация бинарной кучи](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/Heap/Heap.cpp)
 * [Слияние k отсортированных векторов за O(klogN)](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/Heap/mergeKVectors.cpp)
 * [Qsort, медиана медиан и kstat](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/Sortings/QuickSort/QuickSort%2BKstat.cpp)
+* [Реализация декартового дерева](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/Treap)
+* [Реализация АВЛ дерева](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/AVL/avl2.cpp)
+* [Реализация декартового дерева, и реализация дерева Фенвика](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/DTIC)
+* [Реализация Sparse Table](https://github.com/VladislavHacker/Examples/tree/main/SparseTable)
