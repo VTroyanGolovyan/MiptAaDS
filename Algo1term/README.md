@@ -4,4 +4,6 @@
 * [Реализация декартового дерева](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/Treap)
 * [Реализация АВЛ дерева](https://github.com/VladislavHacker/Examples/blob/main/Algo1term/AVL/avl2.cpp)
 * [Реализация декартового дерева, и реализация дерева Фенвика](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/DTIC)
-* [Реализация Sparse Table](https://github.com/VladislavHacker/Examples/tree/main/SparseTable)
+* [Реализация Sparse Table](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/SparseTable)
+* [Реализация LRU cache](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/LRUcache)
+* [Реализация Хэш-таблицы с решением коллизий методом цепочек](https://github.com/VladislavHacker/Examples/tree/main/Algo1term/Hash)
