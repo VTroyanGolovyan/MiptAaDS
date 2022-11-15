@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/vhdev/Examp/Examples/build",
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20 -o CMakeFiles/LRU.dir/LRU.cpp.o -c /Users/vhdev/Examp/Examples/Algo1term/LRUcache/LRU.cpp",
+  "file": "/Users/vhdev/Examp/Examples/Algo1term/LRUcache/LRU.cpp"
+}
+]
