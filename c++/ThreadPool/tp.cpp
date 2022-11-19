@@ -82,22 +82,26 @@ namespace tp {
 
     void Join() {
       joined_.store(true);
+      if (tasks_cnt_.load() == 0) {
+         task_queue_.Close();
+      }
       for (auto& th : threads_) {
         th.join();
       }
     }
 
-    void Worker() {
-      current_tp = this;
-      while (auto task = task_queue_.Take()) {
-        (*task)();
-        if (tasks_cnt_.fetch_sub(1) == 1 && joined_) {
-          task_queue_.Close();
+    private:
+      void Worker() {
+        current_tp = this;
+        while (auto task = task_queue_.Take()) {
+          // TODO: try catch 
+          (*task)();
+          if (tasks_cnt_.fetch_sub(1) == 1 && joined_) {
+            task_queue_.Close();
+          }
         }
       }
-    }
 
-    private:
       std::vector<std::thread> threads_;
       std::atomic<size_t> tasks_cnt_{};
       std::atomic<bool> joined_{false};
@@ -125,6 +129,7 @@ int main() {
   tp.Submit([](){
     std::cout << "KEK" << std::endl;
   });
+
   std::atomic<size_t> test{0};
   std::promise<size_t> promise;
   std::future<size_t> ft = promise.get_future();
@@ -140,6 +145,7 @@ int main() {
       });
     });
   }
+  
   std::cout << ft.get() << std::endl;
   tp.Join();
   std::cout << "KEK\n";
