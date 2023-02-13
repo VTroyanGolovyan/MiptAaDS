@@ -99,6 +99,6 @@ int main() {
   }
   
   printf("%d", k_stat(a, n, k));
-
+  free(a);
   return 0;
 }
