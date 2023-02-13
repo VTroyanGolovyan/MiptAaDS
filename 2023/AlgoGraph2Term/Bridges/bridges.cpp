@@ -3,12 +3,6 @@
 #include <unordered_map>
 #include <limits>
 
-enum Colors {
-  white,
-  grey,
-  black
-};
-
 static constexpr size_t kInfty = std::numeric_limits<size_t>::max();
 
 void BridgesDfs(
