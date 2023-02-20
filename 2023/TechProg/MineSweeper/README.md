@@ -9,3 +9,13 @@
 * Использованы структурные и поведенческие паттерны
 * guhub actions
 * Mayne еще что-то
+
+Как сейчас запустить?
+У вас должен быть установлен sfml
+
+sudo apt-get install libsfml-dev (Ubuntu)
+brew install sfml (Mac)
+
+Затем:
+chmod +x run.sh
+./run.sh
