@@ -14,8 +14,11 @@
 У вас должен быть установлен sfml
 
 sudo apt-get install libsfml-dev (Ubuntu)
+
 brew install sfml (Mac)
 
 Затем:
+
 chmod +x run.sh
+
 ./run.sh
