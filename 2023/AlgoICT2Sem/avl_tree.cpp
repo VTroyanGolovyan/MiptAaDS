@@ -92,24 +92,27 @@ class AVLTree {
         node->left = Erase(node->left, key);
         return Balance(node);
       }
-      if (key > node->key) {
-        node->right = Erase(node->right, key);
+
+      if (key == node->key) {
+        --size_;
+        if (node->right == nullptr) {
+          Node* left_child = node->left;
+          delete node;
+          return left_child;
+        }
+
+        Node* right_min = FindMin(node->right);
+        node->right = DetachMin(node->right);
+        std::swap(right_min->key, node->key);
+        std::swap(right_min->value, node->value);
+        delete right_min;
         return Balance(node);
       }
 
-      --size_;
-      if (node->right == nullptr) {
-        Node* left_child = node->left;
-        delete node;
-        return left_child;
-      }
-
-      Node* right_min = FindMin(node->right);
-      node->right = DetachMin(node->right);
-      std::swap(right_min->key, node->key);
-      std::swap(right_min->value, node->value);
-      delete right_min;
+      //if (key > node->key) {
+      node->right = Erase(node->right, key);
       return Balance(node);
+      //}
     }
 
     Node* Balance(Node* node) {
