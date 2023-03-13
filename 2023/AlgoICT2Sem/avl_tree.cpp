@@ -92,7 +92,7 @@ class AVLTree {
         node->left = Erase(node->left, key);
         return Balance(node);
       }
-      if (key > node->key) {
+      if (node->key < key) {
         node->right = Erase(node->right, key);
         return Balance(node);
       }
