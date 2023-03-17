@@ -2,6 +2,7 @@
 ## Примеры
 * [Заготовка SFML сапера](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/TechProg/MineSweeper)
 * [CMake example, testing with catch.hpp](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/TechProg/Cmake)
+* [Own Library](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/TechProg/OwnLibrary)
 * [GoogleTest](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/TechProg/CMakeGTest)
 
 ## Полезные ссылки
