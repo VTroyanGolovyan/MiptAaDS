@@ -6,6 +6,7 @@
 * [Алгоритм дейкстра с шаблонной метрикой](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoGraph2Term/Dejkstra)
 * [Система непересекающихся множеств, поиск минимального остовного дерева при помощи алгоритма Краскала](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoGraph2Term/DST_MST)
 * [Алгоритм Форда-Фалкерсона](https://github.com/VladislavHacker/MiptExamples/blob/main/2023/AlgoGraph2Term/FordFalkerson/FordFalkerson.cpp)
+* [Алгоритм Диница](https://github.com/VladislavHacker/MiptExamples/blob/main/2023/AlgoGraph2Term/Dinic/)
 
 ## Полезные плагины для VSCode:
 * Tabnine (умные подсказки)
