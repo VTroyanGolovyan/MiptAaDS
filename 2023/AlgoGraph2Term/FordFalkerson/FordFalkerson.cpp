@@ -27,8 +27,8 @@ void AddEdge(std::vector<std::vector<int64_t>>& graph, std::vector<Edge>& edges,
 int64_t FindIncreasingPath(
   std::vector<std::vector<int64_t>>& graph, 
   std::vector<Edge>& edges, 
-  std::vector<uint8_t>& used,
-  uint8_t phase,
+  std::vector<size_t>& used,
+  size_t phase,
   int64_t v,
   int64_t t,
   int64_t min
@@ -73,7 +73,7 @@ int64_t MaxFlow(
   int64_t s, 
   int64_t t
 ) {
-  std::vector<uint8_t> used(graph.size(), 0);
+  std::vector<size_t> used(graph.size(), 0);
   uint8_t phase = 1;
   while (FindIncreasingPath(graph, edges, used, phase, s, t, kInfinity)) {
     ++phase;
