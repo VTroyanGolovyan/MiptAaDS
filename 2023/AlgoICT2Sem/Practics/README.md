@@ -5,3 +5,5 @@
 * [Cравнение сортировок](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoICT2Sem/Practics/Prac3)
 * [Кучи](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoICT2Sem/Practics/Prac4)
 * [Деревья](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoICT2Sem/Practics/Prac5)
+* [Хэш-таблицы](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoICT2Sem/Practics/Prac6)
+* [RMQ/RSQ](https://github.com/VladislavHacker/MiptExamples/tree/main/2023/AlgoICT2Sem/Practics/Prac7)
