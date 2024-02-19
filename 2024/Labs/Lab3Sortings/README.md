@@ -132,7 +132,7 @@ https://en.wikipedia.org/wiki/Shellsort
 Ответить на вопрос: стало ли работать лучше?
 
 ## Пункт 8. Сортировки, основанные не на сравнениях (8 б.)
-Реализуйте Last Significant Digit Sort и Most Significant Digit Sort по байтам.
+Реализуйте Least Significant Digit Sort и Most Significant Digit Sort по байтам.
 
 Ответить на вопрос: какая сортировка работает лучше?
 
