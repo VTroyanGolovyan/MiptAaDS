@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cassert>
 #include <cstdlib>
+#include <stack>
+#include <queue>
 
 class SplayTree {
   struct Node {
@@ -28,9 +30,49 @@ public:
   }
 
   void PrintInOrder() {
-    PrintInOrderImpl(root_);
+    if (root_ == nullptr) {
+      return;
+    }
+    std::stack<std::pair<Node*, bool>> order;
+    order.push({root_, false});
+    while (!order.empty()) {
+      auto [node, left_processed] = order.top();
+      order.pop();
+      if (!left_processed) {
+        order.push({node, true});
+        if (node->left) {
+          order.push({node->left, false});
+        }   
+      } else {
+        std::cout << node->key << " ";
+        if (node->right) {
+          order.push({node->right, false});
+        }
+      }
+    }
+    
   }
   
+  ~SplayTree() {
+    // Обход по уровням (bfs)
+    if (root_ == nullptr) {
+      return;
+    }
+    std::queue<Node*> order;
+    order.push(root_);
+    while (!order.empty()) {
+      Node* node = order.front();
+      order.pop();
+      if (node->left != nullptr) {
+        order.push(node->left);
+      } 
+      if (node->right != nullptr) {
+        order.push(node->right);
+      }
+      delete node;
+    }
+    
+  }
 private:
   /*
   *  Если хотите использовать это в серьез - сделать итеративным
@@ -255,6 +297,6 @@ int main() {
     std::cout << std::endl;
   }
 
-  bst.PrintInOrder();
+ // bst.PrintInOrder();
   return 0;
 }
