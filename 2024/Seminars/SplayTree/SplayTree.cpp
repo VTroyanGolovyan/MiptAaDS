@@ -74,19 +74,6 @@ public:
     
   }
 private:
-  /*
-  *  Если хотите использовать это в серьез - сделать итеративным
-  *  Splay дерево может быть длинным! (может не хватить стека рекурсии)
-  */
-  void PrintInOrderImpl(Node* node) {
-      if (node == nullptr) {
-        return;
-      }
-      PrintInOrderImpl(node->left);
-      std::cout << node->key << " ";
-      PrintInOrderImpl(node->right);
-  }
-
   Node* FindImpl(Node* node, int64_t key) {
     while (node != nullptr) {
       Node* next = nullptr;
